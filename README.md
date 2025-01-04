@@ -1,6 +1,6 @@
-# OpenLedgerNodeGuide
+# OpenLedgerNodeGuide Soon...
 Node installation community guide to OpenLedger Testnet by NodeMafia
-Soon///
+
 Script 
 
 ```

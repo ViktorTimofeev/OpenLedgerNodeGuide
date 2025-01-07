@@ -1,21 +1,5 @@
 #!/bin/bash
 
-# Node Mafia ASCII Art
-echo "
-     __             _                        __  _        
-  /\ \ \  ___    __| |  ___   /\/\    __ _  / _|(_)  __ _ 
- /  \/ / / _ \  / _\` | / _ \ /    \  / _\` || |_ | | / _\` |
-/ /\  / | (_) || (_| ||  __// /\/\ \| (_| ||  _|| || (_| |
-\_\ \/   \___/  \__,_| \___|\/    \/ \__,_||_|  |_| \__,_|
-                                                          
-EN Telegram: soon..
-RU Telegram: https://t.me/nodemafia
-GitHub: https://github.com/NodeMafia
-Medium: https://medium.com/@nodemafia
-Teletype: https://teletype.in/@nodemafia
-Twitter: https://x.com/NodeMafia
-"
-
 # Check OS version
 echo "Checking OS version..."
 OS_VERSION=$(lsb_release -r | awk '{print $2}')

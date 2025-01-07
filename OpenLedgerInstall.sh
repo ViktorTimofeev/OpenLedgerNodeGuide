@@ -45,7 +45,7 @@ install_openledger() {
 
     # Download and unzip OpenLedger
     echo "Downloading OpenLedger..."
-    apt install unzip
+    sudo apt install unzip
     wget https://cdn.openledger.xyz/openledger-node-1.0.0-linux.zip -O openledger-node-1.0.0-linux.zip
     if [ $? -ne 0 ]; then
         echo "Error: Failed to download OpenLedger. Please check the URL."
